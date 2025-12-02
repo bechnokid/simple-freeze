@@ -102,6 +102,7 @@ const f = new FreezeImages (
     selector: "freeze",
     hover: true,
     noCss: true,
+    smoothing: false,
   }
 )
 ```
@@ -109,6 +110,7 @@ const f = new FreezeImages (
 * `selector` (string) - The class name the that the script looks for to process images. Default: `"freeze"`.
 * `hover` (boolean) - Adds `.ff-hover` class to `ff-container` to allow images to pause/play on hover. Default: `false`.
 * `noCss` (boolean) - Tells the script to not add any additional CSS. Default: `false`.
+* `smoothing` (boolean) - Tells the script to smoothen or keep the image's original sharpness. Default: `true`.
 
 ## Contribute
 
