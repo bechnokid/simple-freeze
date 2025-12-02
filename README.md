@@ -2,9 +2,7 @@
 
 A very simple script that freezes animated GIFs. Inspired by [FreezeframeJS](https://github.com/ctrl-freaks/freezeframe.js/) and [Solaria's tutorial](https://solaria.neocities.org/guides/gifpausetut), this script should be a little more beginner-friendly to those who want to pause their GIFs without having to make static images for each one themselves. 
 
-## Demo
-
-WIP!
+[Demo page](https://bechnokid.neocities.org/resources/tutorials/freezeframe/)
 
 ## Usage
 
@@ -102,6 +100,7 @@ const f = new FreezeImages (
     selector: "freeze",
     hover: true,
     noCss: true,
+    smoothing: false,
   }
 )
 ```
@@ -109,6 +108,7 @@ const f = new FreezeImages (
 * `selector` (string) - The class name the that the script looks for to process images. Default: `"freeze"`.
 * `hover` (boolean) - Adds `.ff-hover` class to `ff-container` to allow images to pause/play on hover. Default: `false`.
 * `noCss` (boolean) - Tells the script to not add any additional CSS. Default: `false`.
+* `smoothing` (boolean) - Tells the script to smoothen or keep the image's original sharpness. Default: `true`.
 
 ## Contribute
 
