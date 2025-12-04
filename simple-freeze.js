@@ -18,8 +18,13 @@ class FreezeImages {
       const style = document.createElement('style');
       style.textContent = `
         .ff-container {
-          display: inline-block;
+          display: flex;
           position: relative;
+        }
+
+        .ff-container img,
+        .ff-container canvas {
+          align-self: end;
         }
 
         .ff-container.ff-hover:hover .ff-active {
