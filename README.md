@@ -2,7 +2,7 @@
 
 A very simple script that freezes animated GIFs. Inspired by [FreezeframeJS](https://github.com/ctrl-freaks/freezeframe.js/) and [Solaria's tutorial](https://solaria.neocities.org/guides/gifpausetut), this script should be a little more beginner-friendly to those who want to pause their GIFs without having to make static images for each one themselves. 
 
-[Demo page](https://bechnokid.neocities.org/resources/tutorials/freezeframe/)
+[Demo page](https://bechnokid.com/tutorials/freezeframe/)
 
 ## Usage
 
