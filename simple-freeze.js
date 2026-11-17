@@ -48,7 +48,9 @@ class FreezeImages {
     // Loops through all images
     for (const img of this.imgList) {
       // Gives <img> the inactive class, which hides GIF by default
-      img.className = `${this.imgCls} ff-inactive`;
+      // Also retains original classes of <img> element
+      img.classList.remove("freezeframe");
+      img.className = `${this.imgCls} ff-inactive ${img.className}`;
 
       // Creates <canvas> of GIF and copies data of first frame of animation
       const canvas = document.createElement("canvas");
